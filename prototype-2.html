@@ -91,60 +91,66 @@
           <span></span>
         </div>
         <p class="section-intro">
-          New lineups weekly. Come for the comics, stay for karaoke.
+          Curated comedy every Friday, plus a show-up-go-up open mic on the first Sunday.
         </p>
 
         <div class="show-grid">
           <article class="show-card featured">
             <div class="show-image portrait-one">
-              <span class="date-badge"><b>18</b>SEP</span>
-              <span class="photo-label">HEADLINER</span>
+              <span class="date-badge"><b id="friday-day-0">18</b><span id="friday-month-0">SEP</span></span>
+              <span class="photo-label">CURATED LINEUP</span>
             </div>
             <div class="show-content">
               <h3>RICKSHAW READ THE ROOM</h3>
-              <p class="show-subtitle">Friday Night Comedy Showcase</p>
-              <p class="show-date">Friday, September 18 · 7 PM</p>
-              <a class="button" href="#visit">Show details</a>
+              <p class="show-subtitle signup-window" id="signup-window-0">
+                Signup opens the Friday before and closes Thursday night.
+              </p>
+              <p class="show-date" id="friday-full-0">Friday, September 18 · 7–9 PM</p>
+              <button class="button" type="button" data-open-signup>Friday signup</button>
             </div>
           </article>
 
           <article class="show-card">
             <div class="show-image portrait-two">
-              <span class="date-badge"><b>25</b>SEP</span>
-              <span class="photo-label">FEATURING</span>
+              <span class="date-badge"><b id="friday-day-1">25</b><span id="friday-month-1">SEP</span></span>
+              <span class="photo-label">CURATED LINEUP</span>
             </div>
             <div class="show-content">
               <h3>RICKSHAW READ THE ROOM</h3>
-              <p class="show-subtitle">Local favorites and special guests</p>
-              <p class="show-date">Friday, September 25 · 7 PM</p>
-              <a class="button" href="#visit">Show details</a>
+              <p class="show-subtitle signup-window" id="signup-window-1">
+                Signup opens the Friday before and closes Thursday night.
+              </p>
+              <p class="show-date" id="friday-full-1">Friday, September 25 · 7–9 PM</p>
+              <button class="button" type="button" data-open-signup>Friday signup</button>
             </div>
           </article>
 
           <article class="show-card">
             <div class="show-image portrait-three">
-              <span class="date-badge"><b>02</b>OCT</span>
-              <span class="photo-label">SPECIAL EVENT</span>
+              <span class="date-badge"><b id="friday-day-2">02</b><span id="friday-month-2">OCT</span></span>
+              <span class="photo-label">CURATED LINEUP</span>
             </div>
             <div class="show-content">
-              <h3>FIRST FRIDAY SHOWCASE</h3>
-              <p class="show-subtitle">Seattle comics take the back room</p>
-              <p class="show-date">Friday, October 2 · 7 PM</p>
-              <a class="button" href="#visit">Show details</a>
+              <h3>RICKSHAW READ THE ROOM</h3>
+              <p class="show-subtitle signup-window" id="signup-window-2">
+                Signup opens the Friday before and closes Thursday night.
+              </p>
+              <p class="show-date" id="friday-full-2">Friday, October 2 · 7–9 PM</p>
+              <button class="button" type="button" data-open-signup>Friday signup</button>
             </div>
           </article>
 
           <article class="show-card open-mic-card">
             <div class="show-image open-mic-image">
-              <span class="date-badge"><b>09</b>OCT</span>
+              <span class="date-badge"><b id="sunday-day">04</b><span id="sunday-month">OCT</span></span>
               <span class="neon-mic">♩</span>
-              <strong>OPEN MIC<br />SPOTLIGHT</strong>
+              <strong>SHOW UP<br />GO UP</strong>
             </div>
             <div class="show-content">
-              <h3>COMICS’ SHOWCASE</h3>
-              <p class="show-subtitle">Five-minute sets and new material</p>
-              <p class="show-date">Friday, October 9 · 7 PM</p>
-              <a class="button" href="#open-mic">Comic signup</a>
+              <h3>FIRST SUNDAY OPEN MIC</h3>
+              <p class="show-subtitle">No curated list and no advance signup—just show up and go up.</p>
+              <p class="show-date" id="sunday-full">Sunday, October 4 · 7–9 PM</p>
+              <a class="button" href="#open-mic">Open mic details</a>
             </div>
           </article>
         </div>
@@ -160,19 +166,31 @@
           <p>YOUR<br />5 MINUTES<br />START HERE</p>
         </div>
         <div class="open-mic-copy">
-          <p class="kicker">Calling all comedians</p>
-          <h2>WANT A SPOT?</h2>
+          <p class="kicker">Two ways to get on stage</p>
+          <h2>COMICS, TAKE NOTE</h2>
           <p>
-            We welcome experienced comics, first-timers, and everyone in between.
-            Request a five-minute spot before Friday, then check in at the venue by 6:30 PM.
+            Fridays use a curated advance list. The first Sunday of each month is
+            the walk-up open mic.
           </p>
-          <ul>
-            <li>Five-minute sets</li>
-            <li>New comics welcome</li>
-            <li>Lineup confirmed before show day</li>
-          </ul>
+          <div class="signup-types">
+            <article>
+              <h3>EVERY FRIDAY · 7–9 PM</h3>
+              <p>
+                The signup list opens Friday night for the following week’s show
+                and closes Thursday night. The producer curates the lineup from
+                those submissions.
+              </p>
+            </article>
+            <article>
+              <h3>FIRST SUNDAY · 7–9 PM</h3>
+              <p>
+                Show up, sign up, and go up. No advance list is required for the
+                first-Sunday open mic.
+              </p>
+            </article>
+          </div>
           <button class="button button-gold" type="button" data-open-signup>
-            Sign up to perform
+            Join the Friday signup list
           </button>
         </div>
       </section>
@@ -221,7 +239,7 @@
         <span class="mark">笑</span>
         <span class="wordmark-copy"><strong>RICKSHAW</strong><b>HA HA</b></span>
       </a>
-      <p>Free comedy every Friday · Karaoke every night · Seattle, WA</p>
+      <p>Curated comedy Fridays · Open mic first Sundays · Karaoke nightly</p>
       <a href="https://www.instagram.com/therickshawhaha/" target="_blank" rel="noreferrer">
         @therickshawhaha ↗
       </a>
@@ -229,10 +247,12 @@
 
     <dialog id="signup-dialog">
       <button class="dialog-close" type="button" data-close-signup aria-label="Close">×</button>
-      <p class="kicker">Open mic signup</p>
-      <h2>REQUEST A SPOT</h2>
+      <p class="kicker">Friday curated show</p>
+      <h2>JOIN THE SIGNUP LIST</h2>
       <p class="dialog-intro">
-        This prototype form can be replaced with the producer’s existing Slotted link.
+        The list opens Friday night for the following Friday’s show and closes
+        Thursday night. The producer curates the lineup from the submissions.
+        This prototype form can be replaced with the existing signup link.
       </p>
       <form id="signup-form">
         <label>

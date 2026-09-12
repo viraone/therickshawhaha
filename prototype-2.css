@@ -494,6 +494,10 @@ dialog h2 {
   font-size: 28px;
 }
 
+.date-badge span {
+  display: block;
+}
+
 .photo-label {
   position: absolute;
   right: 12px;
@@ -650,23 +654,30 @@ dialog h2 {
   line-height: 1.7;
 }
 
-.open-mic-copy ul {
-  margin: 24px 0 30px;
-  padding: 0;
-  list-style: none;
+.signup-types {
+  display: grid;
+  gap: 10px;
+  margin: 23px 0 28px;
 }
 
-.open-mic-copy li {
-  padding: 8px 0;
-  border-bottom: 1px solid #485158;
-  font-size: 13px;
+.signup-types article {
+  padding: 15px 17px;
+  background: rgba(255, 255, 255, 0.055);
+  border-left: 3px solid var(--gold);
 }
 
-.open-mic-copy li::before {
-  content: "✓";
-  margin-right: 9px;
+.signup-types h3 {
+  margin: 0 0 5px;
   color: var(--gold);
-  font-weight: 800;
+  font-family: var(--heading);
+  font-size: 17px;
+}
+
+.signup-types p {
+  margin: 0;
+  color: #d9dfe1;
+  font-size: 12px;
+  line-height: 1.55;
 }
 
 .visit {
