@@ -47,55 +47,10 @@
         background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
       }
 
-      header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: min(1240px, calc(100% - 44px));
-        margin: 0 auto;
-        padding: 26px 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.13);
-      }
-
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        color: white;
-        font-family: "Archivo Black", sans-serif;
-        font-size: 14px;
-        line-height: 0.9;
-        text-decoration: none;
-      }
-
-      .brand span:first-child {
-        display: grid;
-        width: 42px;
-        height: 42px;
-        place-items: center;
-        color: var(--ink);
-        background: var(--gold);
-        border-radius: 50%;
-        font-family: serif;
-        font-size: 24px;
-      }
-
-      .brand b {
-        color: var(--pink);
-      }
-
-      header > span {
-        color: #aa9ea4;
-        font-size: 11px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.13em;
-      }
-
       main {
         width: min(1240px, calc(100% - 44px));
         margin: 0 auto;
-        padding: 75px 0 100px;
+        padding: 85px 0 100px;
       }
 
       .intro {
@@ -322,10 +277,6 @@
       }
 
       @media (max-width: 500px) {
-        header > span {
-          display: none;
-        }
-
         main {
           padding-top: 55px;
         }
@@ -337,14 +288,6 @@
     </style>
   </head>
   <body>
-    <header>
-      <a class="brand" href="#">
-        <span>笑</span>
-        <span>RICKSHAW<br /><b>HA HA</b></span>
-      </a>
-      <span>Website concept presentation</span>
-    </header>
-
     <main>
       <section class="intro">
         <p class="eyebrow">Three directions · One Friday-night institution</p>
